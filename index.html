@@ -3,330 +3,656 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Innsmouth Case – Lovecraft Meets Absurd Humor</title>
+    <link rel="icon" href="img/1.png" />
 
-    <title></title>
-    <link rel="icon" href="img" />
+    <meta
+      name="description"
+      content="A choose-your-own-nightmare game full of cosmic horror, dark humor, and very poor life choices. Will you solve the case, or become part of the horror?"
+    />
+    <meta
+      name="keywords"
+      content="Innsmouth Case, Lovecraft game, text adventure, horror comedy, interactive story, Cthulhu, detective parody, point and click, choose your own adventure, visual novel, RobotPumpkin Games"
+    />
 
     <link rel="stylesheet" type="text/css" href="slick/slick.css" />
     <link rel="stylesheet" href="css/main.css" />
   </head>
 
   <body>
-    <div id="cookie-popup" class="class-cookie-popup">
-      <div class="class-cookie-popup-container">
-        <p class="class-cookie-popup-text-two">
+    <div id="cookie-popup" class="y-m-cookie-popup">
+      <div class="y-m-cookie-popup-container">
+        <p class="y-m-cookie-popup-text">Cookies Policy</p>
+        <p class="y-m-cookie-popup-text-two">
           We use cookies to improve your experience on our website. By browsing
           this website, you agree to our use of cookies.
         </p>
-        <div class="class-cookie-button-container">
-          <button id="accept-cookies" class="class-cookie-button">
+        <div class="y-m-cookie-button-container">
+          <button id="accept-cookies" class="y-m-cookie-button">
             Accept cookies
           </button>
-          <button id="decline-cookies" class="class-cookie-button">
+          <button id="decline-cookies" class="y-m-cookie-button">
             Decline Cookies
           </button>
         </div>
       </div>
     </div>
-    <header class="class-header">
-      <div class="class-header-background"></div>
-      <nav class="class-navigation">
-        <ul class="class-navigation-list">
-          <li class="class-navigation-item">
-            <a href="/" class="class-navigation-link">
+    <header class="y-m-header">
+      <div class="y-m-header-background"></div>
+      <nav class="y-m-navigation">
+        <ul class="y-m-navigation-list">
+          <li class="y-m-policy-terms-header-icon-menu">
+            <a href="/" class="">
               <img
                 href="/"
-                class="class-title-img class-navigation-img"
+                class="y-m-title-img"
                 alt="logo"
-                src="img"
-                style=""
+                src="img/1.png"
+                style="width: 56px"
               />
             </a>
           </li>
-          <li class="class-navigation-item">
-            <a href="/" class="class-navigation-link">Home</a>
+          <li class="y-m-navigation-item">
+            <a href="/" class="y-m-navigation-link">Home</a>
           </li>
-          <li class="class-navigation-item">
-            <a href="/#about" class="class-navigation-link">About the Game</a>
+          <li class="y-m-navigation-item">
+            <a href="/#about" class="y-m-navigation-link">About the Game</a>
           </li>
-          <li class="class-navigation-item">
-            <a href="/#why" class="class-navigation-link">Why Us?</a>
+          <li class="y-m-navigation-item">
+            <a href="/#features" class="y-m-navigation-link">Features</a>
           </li>
-          <li class="class-navigation-item">
-            <a href="/#uniqueness" class="class-navigation-link"
-              >Our Uniqueness</a
-            >
-          </li>
-
-          <li class="class-navigation-item">
-            <a href="/#how" class="class-navigation-link">How to Play</a>
-          </li>
-          <li class="class-navigation-item">
-            <a href="/#characters" class="class-navigation-link">Characters</a>
-          </li>
-          <li class="class-navigation-item">
-            <a href="/#reviews" class="class-navigation-link">User Reviews</a>
-          </li>
-          <li class="class-navigation-item">
-            <a href="/#faq" class="class-navigation-link">FAQ</a>
-          </li>
-          <li class="class-navigation-item">
-            <a href="/#gallery" class="class-navigation-link">Gallery</a>
-          </li>
-          <li class="class-navigation-item">
-            <a href="/#features" class="class-navigation-link">Features</a>
-          </li>
-          <li class="class-navigation-item">
-            <a
-              href="/policy.html"
-              class="class-navigation-link class-navigation-item-desk"
-            >
-              Privacy Policy
+          <li class="y-m-navigation-img">
+            <a href="/">
+              <img
+                href="/"
+                class="y-m-title-img"
+                alt="logo"
+                src="img/1.png"
+                style="width: 56px"
+              />
             </a>
           </li>
-          <li class="class-navigation-item">
-            <a
-              href="/terms.html"
-              class="class-navigation-link class-navigation-item-desk"
-            >
-              Terms and Conditions
-            </a>
+          <li class="y-m-navigation-item">
+            <a href="/#gallery" class="y-m-navigation-link">Gallery</a>
           </li>
-          <li class="class-navigation-item">
-            <a
-              href="/cookies.html"
-              class="class-navigation-link class-navigation-item-desk"
-            >
-              Cookies Policy
-            </a>
+          <li class="y-m-navigation-item">
+            <a href="/#how" class="y-m-navigation-link">How to Play</a>
+          </li>
+          <li class="y-m-navigation-item">
+            <a href="/#reviews" class="y-m-navigation-link">Reviews</a>
           </li>
         </ul>
 
-        <div class="class-header-button-wrapper">
-          <a href="/" class="class-policy-terms-header-icon-menu">
-            <img
-              href="/"
-              class="class-title-img"
-              alt="logo"
-              src="img"
-              style=""
-            />
+        <div class="y-m-header-button-wrapper">
+          <a href="/" class="y-m-policy-terms-header-icon-menu">
+            <img href="/" class="y-m-title-img" />
           </a>
 
-          <button
-            type="button"
-            class="class-header-icon-button"
-            data-menu-button
-          >
+          <button type="button" class="y-m-header-icon-button" data-menu-button>
             <img
-              class="class-header-icon class-header-icon-menu"
-              src="img/header/menu.png"
-              style=""
+              class="y-m-header-icon y-m-header-icon-menu"
+              src="img/Frame 261.png"
+              style="width: 50px"
               alt="menu "
             />
-            <!-- <img
-              class="class-header-icon class-header-icon-close"
-              src="img/header/menu (1).png"
-              alt="close"
-            /> -->
+            <svg
+              class="y-m-header-icon y-m-header-icon-close"
+              width="50"
+              height="50"
+              viewBox="0 0 50 50"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g filter="url(#filter0_n_0_976)">
+                <rect width="50" height="50" rx="25" fill="white" />
+                <path
+                  d="M19.5 31.5L25.5 25.5L31.5 19.5M31.5 31.5L19.5 19.5"
+                  stroke="black"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_n_0_976"
+                  x="0"
+                  y="0"
+                  width="50"
+                  height="50"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="BackgroundImageFix"
+                    result="shape"
+                  />
+                  <feTurbulence
+                    type="fractalNoise"
+                    baseFrequency="1.1111111640930176 1.1111111640930176"
+                    stitchTiles="stitch"
+                    numOctaves="3"
+                    result="noise"
+                    seed="7166"
+                  />
+                  <feColorMatrix
+                    in="noise"
+                    type="luminanceToAlpha"
+                    result="alphaNoise"
+                  />
+                  <feComponentTransfer in="alphaNoise" result="coloredNoise1">
+                    <feFuncA
+                      type="discrete"
+                      tableValues="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "
+                    />
+                  </feComponentTransfer>
+                  <feComposite
+                    operator="in"
+                    in2="shape"
+                    in="coloredNoise1"
+                    result="noise1Clipped"
+                  />
+                  <feFlood
+                    flood-color="rgba(207, 207, 207, 0.25)"
+                    result="color1Flood"
+                  />
+                  <feComposite
+                    operator="in"
+                    in2="noise1Clipped"
+                    in="color1Flood"
+                    result="color1"
+                  />
+                  <feMerge result="effect1_noise_0_976">
+                    <feMergeNode in="shape" />
+                    <feMergeNode in="color1" />
+                  </feMerge>
+                </filter>
+              </defs>
+            </svg>
           </button>
         </div>
       </nav>
     </header>
 
     <main>
-      <section class="class-home" id="home">
-        <div class="class-home-container">
-          <div class="class-home-container-top">
-            <h1>
-              <img class="class-home-title-img" src="/img/home" alt="" />
+      <section class="y-m-home" id="home">
+        <div class="y-m-home-container">
+          <div class="y-m-home-container-top">
+            <h1 class="y-m-home-title">
+              Not Every Case <br />
+              Deserves to Be Solved.
             </h1>
-            <p class="class-home-title">Merge Food - Chef Decoration</p>
-            <p class="class-home-text">
-              Cook, Merge, and Create Your Dream Kitchen!
+            <p class="y-m-home-text">
+              When a missing girl leads you to Innsmouth, only one thing’s
+              certain — the town is weird, and you’re in way over your head.
             </p>
-            <a class="class-home-link" href="#" target="_blank">
-              <img class="class-home-img" src="./img/home" alt="google play" />
+            <a
+              class="y-m-home-link"
+              href="https://play.google.com/store/apps/details?id=com.robotpumpkingames.tic&hl=en&gl=us"
+              target="_blank"
+            >
+              <img
+                class="y-m-home-img"
+                src="./img/home/Store download button.png"
+                alt="google play"
+              />
             </a>
           </div>
         </div>
       </section>
-      <section class="class-about" id="about">
-        <div class="class-about-container">
-          <h2 class="class-about-title">About the Game</h2>
-          <p class="class-about-text">
-            <span class="class-about-text-bold"
-              >Merge Food - Chef Decoration</span
-            >
-            combines the
+      <section class="y-m-about y-m-home" id="about">
+        <div class="y-m-about-container">
+          <h2 class="y-m-about-title">About the Game</h2>
+          <p class="y-m-about-text y-m-about-textq">
+            The Innsmouth Case is a text-based horror-comedy adventure inspired
+            by H.P. Lovecraft’s universe — but with a satirical twist. As a
+            private investigator, you must find a missing girl… in a town where
+            nothing is normal.
           </p>
+          <img class="y-m-about-img" src="/img/3.png" />
+          <p class="y-m-about-text">
+            This interactive novel blends comedy, cosmic horror, and
+            choose-your-own-adventure mechanics. Every decision matters — and
+            most are bad.
+          </p>
+          <p class="y-m-about-text-bold y-m-about-textqs">
+            Check the Gameplay of The Innsmouth Case Now
+          </p>
+          <a
+            class="y-m-home-link"
+            href="https://play.google.com/store/apps/details?id=com.robotpumpkingames.tic&hl=en&gl=us"
+            target="_blank"
+          >
+            <img
+              class="y-m-home-img"
+              src="./img/home/Store download button.png"
+              alt="google play"
+            />
+          </a>
         </div>
       </section>
-      <article class="class-why" id="why">
-        <span style="display: none"
-          >Generated: 2025-04-12, Hash: class-qk-class-39fd7x</span
-        >
-
-        <div class="class-why-container">
-          <h2 class="class-about-title">Why Us?</h2>
-          <dl class="class-why-list">
-            <div class="class-why-item">
-              <figure class="class-why-img">
-                <img class="class-why-img" src="img/why" alt="" />
-              </figure>
+      <section class="y-m-features y-m-home" id="features">
+        <div class="y-m-features-container">
+          <h2 class="y-m-about-title">Features</h2>
+          <p class="y-m-about-text-bold">What Awaits in the Shadows?</p>
+          <img class="y-m-about-img" src="/img/3.png" />
+          <div class="y-m-features-div">
+            <div class="y-m-features-lists">
               <div>
-                <dt class="class-why-text-bold">Fun and Relaxing:</dt>
-                <dd class="class-why-text">Perfect for unwinding after a</dd>
+                <div class="y-m-features-item">
+                  <img class="y-m-features-img" src="/img/Frame 277.png" />
+                  <div class="y-m-features-item-two">
+                    <p class="y-m-features-text-bold">
+                      Text Adventure with a Twist
+                    </p>
+                    <p class="y-m-features-text">
+                      A fusion of visual novel, interactive fiction, and
+                      Lovecraftian horror-comedy.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="y-m-features-item-t">
+                <div class="y-m-features-item">
+                  <img class="y-m-features-img" src="/img/Frame 277.png" />
+                  <div class="y-m-features-item-two">
+                    <p class="y-m-features-text-bold">Creepy Yet Funny World</p>
+                    <p class="y-m-features-text">
+                      Meet absurd characters, explore dark alleys, haunted inns,
+                      and fishy locals.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="y-m-features-item">
+                  <img class="y-m-features-img" src="/img/Frame 277.png" />
+                  <div class="y-m-features-item-two">
+                    <p class="y-m-features-text-bold">Stylish Noir Visuals</p>
+                    <p class="y-m-features-text">
+                      Hand-drawn scenes in moody, illustrated style with subtle
+                      animations.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="y-m-features-item">
+                  <img class="y-m-features-img" src="/img/Frame 277.png" />
+                  <div class="y-m-features-item-two">
+                    <p class="y-m-features-text-bold">Choose Your Nightmare</p>
+                    <p class="y-m-features-text">
+                      27 possible endings. Most are terrible. Some are
+                      hilarious. Few are heroic.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="y-m-features-item">
+                  <img class="y-m-features-img" src="/img/Frame 277.png" />
+                  <div class="y-m-features-item-two">
+                    <p class="y-m-features-text-bold">Detective Story… Kinda</p>
+                    <p class="y-m-features-text">
+                      Search for clues, interrogate suspects, and regret your
+                      life choices.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
-          </dl>
-        </div>
-      </article>
-      <section class="class-uniqueness" id="uniqueness">
-        <div class="class-uniqueness-container">
-          <h2 class="class-about-title">Our Uniqueness</h2>
-          <div class="class-uniqueness-list">
-            <div class="class-uniqueness-item">
-              <img class="class-uniqueness-img" src="" alt="" />
-              <p class="class-uniqueness-text-bold">1. Food Fusion Fun</p>
-              <p class="class-uniqueness-text">
-                Discover unexpected recipes and combinations by merging
-                ingredients.
-              </p>
+            <div class="y-m-features-list">
+              <div>
+                <div class="y-m-features-item">
+                  <img class="y-m-features-img" src="/img/Frame 277.png" />
+                  <div class="y-m-features-item-two">
+                    <p class="y-m-features-text-bold">
+                      Text Adventure with a Twist
+                    </p>
+                    <p class="y-m-features-text">
+                      A fusion of visual novel, interactive fiction, and
+                      Lovecraftian horror-comedy.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="y-m-features-item">
+                  <img class="y-m-features-img" src="/img/Frame 277.png" />
+                  <div class="y-m-features-item-two">
+                    <p class="y-m-features-text-bold">Creepy Yet Funny World</p>
+                    <p class="y-m-features-text">
+                      Meet absurd characters, explore dark alleys, haunted inns,
+                      and fishy locals.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="y-m-features-item">
+                  <img class="y-m-features-img" src="/img/Frame 277.png" />
+                  <div class="y-m-features-item-two">
+                    <p class="y-m-features-text-bold">Stylish Noir Visuals</p>
+                    <p class="y-m-features-text">
+                      Hand-drawn scenes in moody, illustrated style with subtle
+                      animations.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="y-m-features-item">
+                  <img class="y-m-features-img" src="/img/Frame 277.png" />
+                  <div class="y-m-features-item-two">
+                    <p class="y-m-features-text-bold">Choose Your Nightmare</p>
+                    <p class="y-m-features-text">
+                      27 possible endings. Most are terrible. Some are
+                      hilarious. Few are heroic.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="y-m-features-item">
+                  <img class="y-m-features-img" src="/img/Frame 277.png" />
+                  <div class="y-m-features-item-two">
+                    <p class="y-m-features-text-bold">Detective Story… Kinda</p>
+                    <p class="y-m-features-text">
+                      Search for clues, interrogate suspects, and regret your
+                      life choices.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="y-m-gallery-button-container y-m-features-button-container"
+            >
+              <button class="y-m-gallery-button y-m-features-list-left">
+                <img
+                  class="y-m-gallery-button-icon"
+                  src="img/Frame 296.png"
+                  alt="left button"
+                />
+              </button>
+              <button class="y-m-gallery-button y-m-features-list-right">
+                <img
+                  class="y-m-gallery-button-icon"
+                  src="img/Frame 295.png"
+                  alt="right button"
+                />
+              </button>
             </div>
           </div>
         </div>
       </section>
-
-      <section class="class-how" id="how">
-        <div class="class-how-container">
-          <h2 class="class-about-title">How to Play</h2>
-
-          <ul class="class-how-list">
-            <li class="class-how-item">
+      <section class="y-m-gallery y-m-home" id="gallery">
+        <div class="y-m-gallery-container">
+          <h2 class="y-m-about-title">Gallery</h2>
+          <p class="y-m-about-text-bold">Explore the game footage</p>
+          <img class="y-m-about-img" src="/img/3.png" />
+          <ul class="y-m-gallery-list">
+            <li class="y-m-gallery-item">
               <img
-                class="class-how-img"
-                src="/img/how/image (1).png"
-                alt="image"
+                class="y-m-gallery-image"
+                src="./img/gallery/1 (1).png"
+                alt="gallery image"
               />
-              <p class="class-how-text-bold">Merge Ingredients:</p>
-              <p class="class-how-text">
-                Drag and merge identical food items to discover new recipes.
-              </p>
             </li>
-          </ul>
-        </div>
-      </section>
-      <section class="class-characters" id="characters">
-        <div class="class-characters-container">
-          <h2 class="class-about-title">Characters</h2>
-          <ul class="class-characters-list">
-            <li class="class-characters-item">
-              <img class="class-characters-img" src="" alt="" />
-              <p class="class-characters-text-bold">Chef Bella:</p>
-              <p class="class-characters-text">
-                A cheerful pastry chef who inspires creativity in the kitchen
-                with her love for desserts.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="class-reviews" id="reviews">
-        <div class="class-reviews-container">
-          <h2 class="class-about-title">Reviews</h2>
-          <ul class="class-reviews-list">
-            <li class="class-reviews-item">
-              <div class="class-reviews-item-top">
-                <img
-                  class="class-reviews-img"
-                  src="/img/reviews/image 12.png"
-                  alt="image"
-                />
-                <p class="class-reviews-text-bold">GourmetGamer:</p>
-              </div>
-              <p class="class-reviews-text">
-                "This game is so addictive! I love discovering new recipes and
-                decorating my kitchen."
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="class-faq" id="faq">
-        <div class="class-faq-container">
-          <h2 class="class-about-title">FAQ</h2>
-          <ul class="class-faq-list">
-            <li class="class-faq-item">
-              <div class="class-faq-question" onclick="toggleAnswer(this)">
-                <span>Is "Merge Food - Chef Decoration" free to play?</span>
-                <button class="class-toggle-button">
-                  <img src="/img/faq/icon.png" alt="Toggle" />
-                </button>
-              </div>
-              <div class="class-faq-answer">
-                Yes, the game is free to play with optional in-app purchases for
-                special items.
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="class-gallery" id="gallery">
-        <div class="class-gallery-container">
-          <h2 class="class-about-title">Gallery</h2>
-
-          <ul class="class-gallery-list">
-            <li class="class-gallery-item">
+            <li class="y-m-gallery-item">
               <img
-                class="class-gallery-image"
-                src="./img/gallery/3.png"
+                class="y-m-gallery-image"
+                src="./img/gallery/1 (2).png"
+                alt="gallery image"
+              />
+            </li>
+            <li class="y-m-gallery-item">
+              <img
+                class="y-m-gallery-image"
+                src="./img/gallery/1 (3).png"
+                alt="gallery image"
+              />
+            </li>
+            <li class="y-m-gallery-item">
+              <img
+                class="y-m-gallery-image"
+                src="./img/gallery/1 (4).png"
+                alt="gallery image"
+              />
+            </li>
+            <li class="y-m-gallery-item">
+              <img
+                class="y-m-gallery-image"
+                src="./img/gallery/1 (5).png"
+                alt="gallery image"
+              />
+            </li>
+            <li class="y-m-gallery-item">
+              <img
+                class="y-m-gallery-image"
+                src="./img/gallery/1 (6).png"
+                alt="gallery image"
+              />
+            </li>
+            <li class="y-m-gallery-item">
+              <img
+                class="y-m-gallery-image"
+                src="./img/gallery/1 (7).png"
+                alt="gallery image"
+              />
+            </li>
+            <li class="y-m-gallery-item">
+              <img
+                class="y-m-gallery-image"
+                src="./img/gallery/1 (8).png"
                 alt="gallery image"
               />
             </li>
           </ul>
-          <div class="class-gallery-button-container">
-            <button class="class-gallery-button class-gallery-list-left">
+        </div>
+      </section>
+      <section class="y-m-how y-m-home" id="how">
+        <div class="y-m-how-container">
+          <h2 class="y-m-about-title">How to Play</h2>
+          <p class="y-m-about-text-bold">
+            Understand the mechanics of the game
+          </p>
+          <figure><img class="y-m-about-img" src="/img/3.png" /></figure>
+
+          <dl class="y-m-how-list">
+            <div class="y-m-how-item">
+              <dt class="y-m-how-text-number">1</dt>
+              <dd class="y-m-how-text-bold">Text Adventure with a Twist</dd>
+              <dd class="y-m-how-text">
+                A fusion of visual novel, interactive fiction, and Lovecraftian
+                horror-comedy.
+              </dd>
+            </div>
+            <div class="y-m-how-item">
+              <dt class="y-m-how-text-number">2</dt>
+              <dd class="y-m-how-text-bold">Choose Your Path</dd>
+              <dd class="y-m-how-text">
+                Make decisions that shape the story — some lead to answers,
+                others to insanity.
+              </dd>
+            </div>
+            <div class="y-m-how-item">
+              <dt class="y-m-how-text-number">3</dt>
+              <dd class="y-m-how-text-bold">Meet the Locals</dd>
+              <dd class="y-m-how-text">
+                Talk to questionable characters: a cultist grandma, paranoid
+                fisherman, or Cthulhu fanboy.
+              </dd>
+            </div>
+            <div class="y-m-how-item">
+              <dt class="y-m-how-text-number">4</dt>
+              <dd class="y-m-how-text-bold">Survive (Maybe)</dd>
+              <dd class="y-m-how-text">
+                With 27 endings, survival is optional. Enjoy the chaos.
+              </dd>
+            </div>
+          </dl>
+          <div
+            class="y-m-gallery-button-container y-m-features-button-container"
+          >
+            <button class="y-m-gallery-button y-m-how-list-left">
               <img
-                class="class-gallery-button-icon"
-                src="img"
+                class="y-m-gallery-button-icon"
+                src="img/Frame 296.png"
                 alt="left button"
               />
             </button>
-            <button class="class-gallery-button class-gallery-list-right">
+            <button class="y-m-gallery-button y-m-how-list-right">
               <img
-                class="class-gallery-button-icon"
-                src="img"
+                class="y-m-gallery-button-icon"
+                src="img/Frame 295.png"
                 alt="right button"
               />
             </button>
           </div>
         </div>
       </section>
-      <section class="class-features" id="features">
-        <div class="class-features-container">
-          <h2 class="class-about-title">Features</h2>
+      <section class="y-m-reviews y-m-how y-m-home" id="reviews">
+        <div class="y-m-reviews-container">
+          <h2 class="y-m-about-title">Reviews</h2>
+          <p class="y-m-about-text-bold">Explore what players say</p>
+          <figure><img class="y-m-about-img" src="/img/3.png" /></figure>
 
-          <ul class="class-features-list">
-            <li class="class-features-item">
-              <p class="class-features-text-bold">Daily Quests</p>
+          <ul class="y-m-reviews-list">
+            <li class="y-m-reviews-item">
+              <div class="y-m-reviews-item-top">
+                <p class="y-m-reviews-text-bold">Melanie R.</p>
+                <p class="y-m-reviews-text">
+                  “Hilarious and disturbing — I laughed and cringed all the way
+                  to the worst ending.”
+                </p>
+              </div>
               <img
-                class="class-features-img"
-                src="/img/features/image (2).png"
-                alt="image"
+                class="y-m-reviews-img"
+                src="/img/reviews/Ellipse 1 (1).png"
+                alt="avatar"
               />
-              <p class="class-features-text">
-                Complete tasks for extra rewards.
-              </p>
+            </li>
+            <li class="y-m-reviews-item">
+              <div class="y-m-reviews-item-top">
+                <p class="y-m-reviews-text-bold">Tom K.</p>
+                <p class="y-m-reviews-text">
+                  “Feels like playing a weird Lovecraft book on acid. 10/10
+                  would investigate again.”
+                </p>
+              </div>
+              <img
+                class="y-m-reviews-img"
+                src="/img/reviews/Ellipse 1 (2).png"
+                alt="avatar"
+              />
+            </li>
+            <li class="y-m-reviews-item">
+              <div class="y-m-reviews-item-top">
+                <p class="y-m-reviews-text-bold">Igor S.</p>
+                <p class="y-m-reviews-text">
+                  “Atmospheric writing, dark humor, bizarre plot twists. A gem
+                  for fans of absurd horror.”
+                </p>
+              </div>
+              <img
+                class="y-m-reviews-img"
+                src="/img/reviews/Ellipse 1 (3).png"
+                alt="avatar"
+              />
+            </li>
+            <li class="y-m-reviews-item">
+              <div class="y-m-reviews-item-top">
+                <p class="y-m-reviews-text-bold">Eli F.</p>
+                <p class="y-m-reviews-text">
+                  “Who knew dread could be this funny?”
+                </p>
+              </div>
+              <img
+                class="y-m-reviews-img"
+                src="/img/reviews/Ellipse 1 (4).png"
+                alt="avatar"
+              />
             </li>
           </ul>
+          <div
+            class="y-m-gallery-button-container y-m-features-button-container"
+          >
+            <button class="y-m-gallery-button y-m-reviews-list-left">
+              <img
+                class="y-m-gallery-button-icon"
+                src="img/Frame 296.png"
+                alt="left button"
+              />
+            </button>
+            <button class="y-m-gallery-button y-m-reviews-list-right">
+              <img
+                class="y-m-gallery-button-icon"
+                src="img/Frame 295.png"
+                alt="right button"
+              />
+            </button>
+          </div>
         </div>
       </section>
-    </main>
+      <article class="y-m-why y-m-home" id="why">
+        <span style="display: none"
+          >Generated: 2025-08-05, Hash: y-m-qk-y-m-39fd7x</span
+        >
 
+        <div class="y-m-why-container">
+          <h2 class="y-m-about-title">
+            You’re One Bad Decision Away from Innsmouth
+          </h2>
+          <img class="y-m-about-img y-m-why-img" src="/img/3.png" />
+          <p class="y-m-about-text-bold y-m-why-text">
+            The truth is out there. And it’s ugly, fishy, and oddly polite.
+          </p>
+
+          <a
+            class="y-m-home-link"
+            href="https://play.google.com/store/apps/details?id=com.robotpumpkingames.tic&hl=en&gl=us"
+            target="_blank"
+          >
+            <img
+              class="y-m-home-img"
+              src="./img/home/Store download button.png"
+              alt="google play"
+            />
+          </a>
+        </div>
+      </article>
+    </main>
+    <footer
+      class="y-m-footer"
+      style="
+        margin: auto;
+        background: linear-gradient(
+          90deg,
+          rgba(217, 217, 217, 0) 0%,
+          #000000 47.12%,
+          rgba(217, 217, 217, 0) 100%
+        );
+      "
+    >
+      <div class="y-m-footer-container">
+        <div class="y-m-footer-wrapper">
+          <a class="y-m-footer-text" href="/policy.html">Privacy Policy</a>
+          <a class="y-m-footer-text" href="/terms.html"
+            >Terms and Conditions
+          </a>
+          <a class="y-m-footer-text" href="/cookies.html">Cookies Policy</a>
+        </div>
+        <p class="y-m-footer-copyright">
+          © 2025 legalhu.site – All rights reserved
+        </p>
+      </div>
+    </footer>
     <script src="js/mobile-menu.js"></script>
-    <script src="js/jquery-loc-class-0.js"></script>
+    <script src="js/jquery-loc-y-m-0.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script src="js/slick.js"></script>
   </body>
